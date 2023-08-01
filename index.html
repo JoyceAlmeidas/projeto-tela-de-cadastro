@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
+
 <body>
-    
+    <main>
+        <h1><span class="sublinhado">Cada</span>stre-se</h1>
+        <button type="button" id="botao-superior-direito">Entrar</button>
+        <form>
+            <div>
+                <label for="nome">Primeiro Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div>
+                <label for="tel">Celular</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+            <div>
+                <label for="confirmesenha">Confirme sua senha</label>
+                <input type="password" name="confirmesenha" id="confirmesenha">
+            </div>
+            <div>
+                <label>Gênero</label> <br>
+                <div>
+                    <input type="radio" name="sex" value="feminino"> Feminino
+                    <input type="radio" name="sex" value="masculino"> Masculino
+                    <input type="radio" name="sex" value="outros"> Outros
+                    <input type="radio" name="sex" value="prefere"> Prefiro não dizer
+                </div>
+            </div>
+            <button class="botao2" type="button">Continuar</button> <br>
+        </form>
+    </main>
+
 </body>
+
 </html>
