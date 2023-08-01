@@ -11,40 +11,43 @@
 
 <body>
     <main>
+        <section>
+            <img src="" alt="">
+        </section>
         <h1><span class="sublinhado">Cada</span>stre-se</h1>
         <button type="button" id="botao-superior-direito">Entrar</button>
         <form>
-            <div>
+            <div class="form">
                 <label for="nome">Primeiro Nome</label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu primeiro nome">
             </div>
-            <div>
+            <div class="form">
                 <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
             </div>
-            <div>
+            <div class="esconder">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
             </div>
-            <div>
+            <div class="esconder">
                 <label for="senha">Senha</label>
                 <input type="password" name="senha" id="senha">
             </div>
-            <div>
+            <div class="esconder">
                 <label for="tel">Celular</label>
                 <input type="tel" name="tel" id="tel">
             </div>
-            <div>
+            <div class="esconder">
                 <label for="confirmesenha">Confirme sua senha</label>
                 <input type="password" name="confirmesenha" id="confirmesenha">
             </div>
             <div>
-                <label>Gênero</label> <br>
-                <div>
-                    <input type="radio" name="sex" value="feminino"> Feminino
-                    <input type="radio" name="sex" value="masculino"> Masculino
-                    <input type="radio" name="sex" value="outros"> Outros
-                    <input type="radio" name="sex" value="prefere"> Prefiro não dizer
+                <label class="label-genero">Gênero</label> 
+                <div class="opcoes">
+                    <input type="radio" name="sex" value="feminino"> Feminino <br>
+                    <input type="radio" name="sex" value="masculino"> Masculino <br>
+                    <input type="radio" name="sex" value="outros"> Outros <br>
+                    <input type="radio" name="sex" value="prefere"> Prefiro não dizer <br>
                 </div>
             </div>
             <button class="botao2" type="button">Continuar</button> <br>
