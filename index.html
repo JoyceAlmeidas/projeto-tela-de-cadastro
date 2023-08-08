@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de cadastro</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/outras-medias-style.css">
 </head>
 
 <body>
@@ -16,40 +15,40 @@
             <img src="imagens/undraw_shopping_re_hdd9.svg" alt="shopping">
         </div>
         <div class="body-login">
-            <h1 class="title">Cadastre-se</h1>
+            <h1 class="title"><span class="sublinhado">Cada</span>stre-se</h1>
             <button class="bnt-enter">Entrar</button>
             <form>
-                <div>
+                <div class="form-field">
                     <label for="nome">Primeiro Nome</label>
                     <input type="text" name="nome" id="nome" placeholder="Digite seu primeiro nome" required>
                 </div>
-                <div>
+                <div class="hidden">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
                 </div>
-                <div>
+                <div class="hidden">
                     <label for="senha">Senha</label>
                     <input type="password" name="senha" id="senha" placeholder="Digite a sua senha">
                 </div>
-                <div>
+                <div class="form-field">
                     <label for="sobrenome">Sobrenome</label>
                     <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
                 </div>
-                <div>
+                <div class="hidden">
                     <label for="telefone">Celular</label>
                     <input type="tel" name="telefone" placeholder="(xx) xxxx-xxxx" required>
                 </div>
-                <div>
+                <div class="hidden">
                     <label for="Confirme">Confirme sua Senha</label>
                     <input type="password" placeholder="Digite sua senha novamente">
                 </div>
-                <div>
+                <div class="form-field">
                     <label for="">Gênero</label>
-                    <div>
-                        <input type="radio" name="sex"  value="femenino"> Femenino
-                        <input type="radio" name="sex"  value="masculino"> Masculino
-                        <input type="radio" name="sex" value="outros"> Outros
-                        <input type="radio" name="sex" value="prefiro nao dizer"> Prefiro não dizer
+                    <div class="gender-options">
+                        <div class="gender-option"><input type="radio" name="sex" value="femenino"> <span>Femenino</span></div>
+                        <div class="gender-option"><input type="radio" name="sex" value="masculino"> <span>Masculino</span></div>
+                        <div class="gender-option"><input type="radio" name="sex" value="outros"> <span>Outros</span></div>
+                        <div class="gender-option"><input type="radio" name="sex" value="prefiro nao dizer"> <span>Prefiro não dizer</span></div>
                     </div>
                     <button class="bnt-submit">Continuar</button>
                 </div>
@@ -57,8 +56,6 @@
 
             </form>
         </div>
-
-
     </div>
 
 
