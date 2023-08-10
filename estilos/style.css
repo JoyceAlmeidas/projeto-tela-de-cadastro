@@ -20,11 +20,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px 2px rgba(221, 215, 215, 0.267);
-    
+
 }
 
 h1 {
     padding: 25px 0 20px 0;
+    font-size: 24px;
+}
+
+.sublinhado {
+   
+    border-bottom: 2px solid #6961F2;
+
 }
 
 .bnt-enter {
@@ -38,9 +45,10 @@ h1 {
     position: fixed;
     top: 0;
     right: 0;
-    
+
 
 }
+
 .form-field label {
     display: block;
     margin-bottom: 10px;
@@ -48,7 +56,8 @@ h1 {
     font-weight: bold;
     line-height: 1.5;
 }
-.form-field input[type=text]{
+
+.form-field input[type=text] {
     padding: 12px 5px;
     margin-bottom: 5px;
     border-radius: 9px;
@@ -56,20 +65,24 @@ h1 {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.185);
     width: 200px;
 }
+
 .gender-options .gender-option {
-   display: block;
-  
+    display: block;
+
 
 }
-.gender-options .gender-option span{
+
+.gender-options .gender-option span {
     font-size: 0.8em;
     font-weight: bold;
 }
-.gender-option input{
+
+.gender-option input {
     transform: scale(1.2);
     margin: 5px 5px;
 }
-.bnt-submit{
+
+.bnt-submit {
     background-color: #6961F2;
     padding: 5px 12px;
     width: 100%;
